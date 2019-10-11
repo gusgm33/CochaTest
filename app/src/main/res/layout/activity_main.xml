@@ -1,6 +1,6 @@
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
@@ -14,15 +14,19 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
         <Button
-                android:id="@+id/verdad_button"
+                android:id="@+id/verdad_button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/verdad_button" />
+                android:text="@string/verdad_button"
+                android:background="@color/colorPrimaryDark"
+                android:textAllCaps="false" tools:ignore="ButtonStyle"/>
         <Button
-                android:id="@+id/falso_button"
+                android:id="@+id/falso_button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/falso_button" />
+                android:text="@string/falso_button"
+                android:background="@color/colorPrimaryDark"
+                android:textAllCaps="false" tools:ignore="ButtonStyle"/>
     </LinearLayout>
 
 </LinearLayout>
